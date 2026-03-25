@@ -3,6 +3,7 @@ from django.conf import settings
 from django.urls import path
 from django.http import HttpResponse
 from django.core.management import execute_from_command_line
+from django.core.wsgi import get_wsgi_application
 
 # 1. Manual Settings Configuration
 settings.configure(
@@ -28,3 +29,5 @@ urlpatterns = [
 # 4. The Execution Logic
 if __name__ == "__main__":
     execute_from_command_line(sys.argv)
+
+app = get_wsgi_application()
