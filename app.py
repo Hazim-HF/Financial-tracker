@@ -18,6 +18,7 @@ def home(request):
         <body style="font-family: sans-serif; text-align: center; padding: 50px;">
             <h1>One-File Django App 🚀</h1>
             <p>Yes, it works!</p>
+            <p>Hazim Fitri bin Ahmad Faudzi</p>
         </body>
     """)
 
